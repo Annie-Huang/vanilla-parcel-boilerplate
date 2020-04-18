@@ -7,4 +7,5 @@ https://github.com/Annie-Huang/vanilla-parcel-boilerplate
 ===================================================================
 
 C:\react\vanilla-parcel-boilerplate>npm init -y
+C:\react\vanilla-parcel-boilerplate>npm i -D parcel-bundler sass @babel/core @babel/plugin-transform-runtime @babel/runtime-corejs2
 
