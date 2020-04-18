@@ -6,4 +6,5 @@ https://github.com/Annie-Huang/vanilla-parcel-boilerplate
 
 ===================================================================
 
+C:\react\vanilla-parcel-boilerplate>npm init -y
 
