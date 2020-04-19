@@ -4,8 +4,31 @@ https://www.youtube.com/watch?v=8rD9amRSOQY
 https://github.com/bradtraversy/vanilla-parcel-boilerplate
 https://github.com/Annie-Huang/vanilla-parcel-boilerplate
 
+https://babeljs.io/docs/en/babel-plugin-transform-runtime
+
 ===================================================================
 
 C:\react\vanilla-parcel-boilerplate>npm init -y
 C:\react\vanilla-parcel-boilerplate>npm i -D parcel-bundler sass @babel/core @babel/plugin-transform-runtime @babel/runtime-corejs2
+
+------------
+@babel/plugin-transform-runtime
+A plugin that enables the re-use of Babel's injected helper code to save on codesize.
+Another purpose of this transformer is to create a sandboxed environment for your code.
+If you directly import core-js or @babel/polyfill and the built-ins it provides such as Promise, Set and Map, those will pollute the global scope.
+
+C:\react\vanilla-parcel-boilerplate>npm ls core-js
+vanilla-parcel-boilerplate@1.0.0 C:\react\vanilla-parcel-boilerplate
++-- @babel/runtime-corejs2@7.9.2
+| `-- core-js@2.6.11
+`-- parcel-bundler@1.12.4
+  +-- babylon-walk@1.0.2
+  | `-- babel-runtime@6.26.0
+  |   `-- core-js@2.6.11  deduped
+  `-- core-js@2.6.11  deduped
+
+
+Need to set "corejs": 2, in .babelrc as that is what we uses
+------------
+
 
