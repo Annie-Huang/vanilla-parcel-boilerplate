@@ -6,6 +6,7 @@ https://github.com/Annie-Huang/vanilla-parcel-boilerplate
 
 https://babeljs.io/docs/en/babel-plugin-transform-runtime
 https://stackoverflow.com/questions/14502612/delete-a-directory-and-its-files-using-command-line-but-dont-throw-error-if-it
+https://randomuser.me/api
 
 ===================================================================
 
