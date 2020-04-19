@@ -5,6 +5,7 @@ https://github.com/bradtraversy/vanilla-parcel-boilerplate
 https://github.com/Annie-Huang/vanilla-parcel-boilerplate
 
 https://babeljs.io/docs/en/babel-plugin-transform-runtime
+https://stackoverflow.com/questions/14502612/delete-a-directory-and-its-files-using-command-line-but-dont-throw-error-if-it
 
 ===================================================================
 
@@ -31,4 +32,8 @@ vanilla-parcel-boilerplate@1.0.0 C:\react\vanilla-parcel-boilerplate
 Need to set "corejs": 2, in .babelrc as that is what we uses
 ------------
 
+C:\react\vanilla-parcel-boilerplate>npm run dev
+http://localhost:3000
+
+C:\react\vanilla-parcel-boilerplate>npm run build
 

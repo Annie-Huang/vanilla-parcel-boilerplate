@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev-linux": "rm -rf ./development && rm -rf ./.cache && public/index.html",
+    "dev": "(if exist .\\development rmdir /s /q .\\development) && (if exist .\\.cache rmdir /s /q .\\.cache) && parcel public/index.html --out-dir development -p 3000",
+    "build": "parcel build public/index.html --out-dir dist --public-url ./"
   },
   "repository": {
     "type": "git",
